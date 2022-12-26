@@ -9,7 +9,8 @@ myImage.onclick = function () {
 }
 
 
-let myButton = document.querySelector('button');
+let myButton = document.querySelector('#user');
+// let myTop = document.querySelector('#return-top');
 let myH1 = document.querySelector('h1');
 
 function setUsername() {
@@ -27,3 +28,7 @@ if (!localName) {
 myButton.onclick = function(){
     setUsername();
 };
+
+// myTop.onclick = function(){
+
+// }
